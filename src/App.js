@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React from 'react';
+import { Context } from "./Context/Authenticated"
+
+import Authenticated from './AuthenticatedApp';
+import Unauthenticated from './UnauthenticatedApp';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const { token } = React.useContext(Context);
+  if (token) {
+    return <Authenticated/>
+  } else {
+   return <Unauthenticated/>
+  }
 }
 
 export default App;

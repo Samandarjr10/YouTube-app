@@ -1,0 +1,56 @@
+.recommend-photos-list__item {
+    text-decoration: none;
+}
+
+.recommend-photos-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommend__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    margin: 0;
+    margin-top: 49px;
+    margin-bottom: 30px;
+}
+
+.recommend__lorem {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.recommend__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.recommend__text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 0.4;
+    margin: 0;
+    margin-right: 150px;
+}
+
+.recommend__info {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 0.4;
+    margin: 0;
+}

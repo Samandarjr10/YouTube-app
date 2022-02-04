@@ -1,0 +1,98 @@
+.sitebar-container {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    width: 200px;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list__item + .nav-list__item {
+    margin-top: 28px;
+}
+
+.nav-list__item--active {
+    margin-bottom: 60px;
+}
+
+.nav-list__img {
+    margin-right: 13px;
+}
+
+.nav-list__head {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+
+    &:hover {
+        color: #FF0000;
+    }
+    &:checked {
+        color: #FF0000;
+    }
+}
+
+.nav-list__head--active {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF0000;
+    margin: 0;
+}
+
+.Subscriptions {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.user-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 107px;
+    list-style-type: none;
+}
+
+.user__top {
+    text-decoration: none;
+}
+
+.user-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.user-list__img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-name__heading {
+    display: flex;
+    align-items: center;
+}
+
+.user__heading {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.settings-wrap {
+    display: flex;
+    align-items: center;
+}

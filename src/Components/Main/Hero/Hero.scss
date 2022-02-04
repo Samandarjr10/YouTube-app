@@ -1,0 +1,80 @@
+.user-photos-list {
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dollie__wrapper-head {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.user-photos-list__item {
+    text-decoration: none;
+} 
+
+.user-photos-list__item + .user-photos-list__item{
+    margin-left: 40px;
+}
+
+.dollie__img {
+    margin-right: 20px;
+}
+
+.dollie__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    margin: 0;
+}
+
+.user-photos-list__text {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.star-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.star-wrapper__text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    margin: 0;
+    margin-right: 15px;
+    opacity: 0.4;
+}
+
+.star-wrapper__heading {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    margin: 0;
+    opacity: 0.4;
+}
+
+.image__user {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}

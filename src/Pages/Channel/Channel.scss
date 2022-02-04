@@ -1,0 +1,207 @@
+.channel-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 59px;
+}
+
+.cover-img {
+    margin-bottom: 30px;
+}
+
+.channel-list__item + .channel-list__item {
+    margin-left: 69px;
+}
+
+.channel-list__link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.channel-list__link--active {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.user-channel__head-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.user-channel__inner-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.user-channel__avatar {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-channel__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    margin: 0;
+}
+
+.user-channel__text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin: 0;
+}
+
+.btn {
+    border-radius: 50px;
+    border: transparent;
+    background-color: #FF0000;
+    padding: 5px 15px;
+}
+
+.channel-computer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 61px;
+}
+
+.channel-computer__wrapper {
+    margin-right: 25px;
+}
+
+.channel-computer__img {
+    margin-right: 20px;
+}
+
+.channel-computer__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+    max-width: 431px;
+    width: 100%;
+}
+
+.channel-computer__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.6;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 548px;
+    width: 100%;
+}
+
+.channel-computer__info {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C2C2C2;
+    margin: 0;
+}
+
+.cover__heading {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin: 0;
+}
+
+.cover-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cover-list__link {
+    text-decoration: none;
+}
+
+.cover-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.cover-list__item {
+    margin-top: 30px;
+}
+
+.cover-list__image {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.cover-list__heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    margin: 0;
+}
+
+.food-drink__heading {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.food-drink__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.food-drink__lorem {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.food-drink__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.food-drink__text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 0.4;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.food-drink__info {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    opacity: 0.4;
+    margin: 0;
+}
